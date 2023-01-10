@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-long long int fibonacci(long long int &);
+long long int fibonacci( long long int );
 
 
 int main(){
@@ -12,5 +12,14 @@ int main(){
 }
 
 long long int fibonacci(long long int x){
-    fibonacci(x) = fibonacci(x-1) + fibonacci(x-2) ;
+
+   
+   if (x == 1){
+        return 1 ;
+    }if (x == 0){
+        return 0;
+    } else{
+    return fibonacci(x-1) + fibonacci(x-2) ;
+
+    }
 }
