@@ -11,6 +11,6 @@ int main(){
     return 0; 
 }
 
-long long int fibonacci(long long int &){
+long long int fibonacci(long long int x){
     fibonacci(x) = fibonacci(x-1) + fibonacci(x-2) ;
 }
